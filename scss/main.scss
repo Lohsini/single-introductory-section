@@ -10,7 +10,6 @@ $OpenSans: 'Open Sans', sans-serif;
 
 html{
   height: 100%;
-  position: relative;
 }
 
 body {
@@ -41,7 +40,7 @@ body {
 
   .pic {
     flex: 50%;
-    margin-right: 30px;
+    margin: 0 30px;
 
     img {
       width: 100%;
@@ -100,13 +99,10 @@ body {
 }
 
 footer {
-  background-color: rgb(85, 47, 124);
   padding: 10px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
   a {
-    color: #fff;
+    // color: #fff;
+    color: #000;
   }
   a:hover{
     color: #888;
@@ -120,9 +116,9 @@ footer {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   html {
-    height: 100%;
+    height: auto;
   }
   body {
     height: 100%;
