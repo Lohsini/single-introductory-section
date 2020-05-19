@@ -118,7 +118,7 @@ footer {
 
 @media only screen and (max-width: 800px) {
   html {
-    height: auto;
+    height: 100%;
   }
   body {
     height: 100%;
@@ -129,8 +129,14 @@ footer {
   .wrap{
     flex-flow: wrap;
     margin:20px;
+    text-align: center;
     .pic {
       margin:auto;
     }
+  }
+}
+@media only screen and (max-width: 600px) {
+  html {
+    height: auto;
   }
 }
